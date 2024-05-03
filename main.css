@@ -1,0 +1,195 @@
+*{/*CONFIGURAÇÃO INICIAL*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { /*DETERMINA COR E ESPAÇAMENTO DOS ELEMENTOS DO CABEÇALHO*/
+    background-color: goldenrod;
+    padding: 16px 0;
+}
+
+header li{/*POSICIONA OS LI UM DO LADO DO OUTRO*/
+display: inline;
+margin-right: 8px;
+font-family: "Bungee", sans-serif;
+font-weight: 400;
+font-style:oblique;
+
+}
+
+header a{
+    text-decoration: none;
+    color: beige;
+}
+
+header h1{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: oblique;
+    margin-bottom: 16px;
+    width: 370px;
+    margin-top: 30px;
+    height: 100px;
+    font-size: 50px;
+
+
+}
+
+section h2{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: oblique;;}
+
+section h3{
+    font-family: "Castoro", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(120, 88, 9);
+}   
+
+section p, address{
+    font-family: "Carter One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container{ /*DETERMINA A EXTENÇÃO DO CONTEÚDO NA PÁGINA DO USUARIO*/
+    width: 1366px;
+    margin: 0 auto;
+
+}
+
+.articles{ /* ALINHA AS IMAGENS UMA DO LADO DA OUTRA*/
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap; /*FAZ COM QUE APÓS 3 IMAGENS NA MESMA LINHA, A QUARTA SALTE PARA A PROXIMA LINHA*/
+}
+
+header .container{ /* ALINHA O H1 E OS LI LADO A LADO NO CABEÇALHO*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.articles article img{
+    height: 180px; /*LIMITA O TAMANHO DAS IMAGENS SELECIONADAS. NESTE CASO REDUZIU AS IMAGENS*/
+    margin-top: 16px;
+    
+}   
+.articles article a{
+    text-decoration: none;
+    background-color: goldenrod;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.articles article{
+    width: 30%; /*LIMITA O NUMERO DE IMAGENS NA MESMA LINHA. NESTE CASO 3 IMAGENS*/
+}
+
+.about article img{ /*DIMENSIONA O TAMANHO DA FOTO OCUPANDO METADE DA TELA*/
+    width: 650px;
+}
+
+.about article{ /*ALOCA O ARTIGO AO LADO DA FOTO*/
+    display: flex;
+    align-items: center;
+
+}
+
+.about article p{
+    margin-left: 80px;
+}
+
+.social-media img{
+    height: 20px;
+}
+
+.social-media li {
+    display: inline;
+margin-left: 370px;
+
+}
+
+.social-media li a{
+    text-decoration: none;
+}
+
+form input, form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 16px;
+}
+
+form textarea{
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    background-color: goldenrod;
+    color: beige;
+    cursor: pointer;
+    font-family: "Castoro", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+form button:hover{
+    background-color: rgb(158, 137, 83);
+}
+
+input:focus textarea:focus{
+    outline: goldenrod;
+}
+
+footer{
+    background-color: goldenrod;
+    padding-left: 600px;
+    margin-top: 16px;
+}
+
+
+section h2{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.articles{
+    background-color: rgb(234, 188, 224);
+}
+
+#pergunta{
+    background-color:rgb(222, 217, 226) ;
+}
+
+.about{
+    background-color: blueviolet;
+}
+
+section h2{
+    margin-left: 630px;
+}
+
+#contact p, address{
+    margin-left: 630px;
+}
+
+.questions{
+    margin-left: 530px;
+}
+.questions h3{
+    margin-left: 90px;
+}
+
+.container .contact-methods{
+    margin-left: -80px;
+}
+
+
